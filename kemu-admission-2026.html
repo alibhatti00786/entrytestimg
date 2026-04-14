@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KEMU Admissions 2026 — Merit, Seats, Fee & Application Process | Tayari Shayari</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --maroon:      #7B1D1D;
+      --maroon-mid:  #9B2335;
+      --maroon-light:#FDF2F4;
+      --maroon-glow: #C0392B;
+      --gold:        #B7860B;
+      --gold-light:  #FEF9E7;
+      --navy:        #0F1F2E;
+      --blue-mid:    #1A3A6B;
+      --green:       #0A6B3B;
+      --green-light: #EAFAF1;
+      --bg:          #FAF8F8;
+      --surface:     #FFFFFF;
+      --text:        #1A1A1A;
+      --muted:       #6B7280;
+      --border:      #EAE0E0;
+      --serif:       'Fraunces', serif;
+      --sans:        'Plus Jakarta Sans', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.8; font-size: 16px; }
+    a { color: var(--maroon-mid); }
+
+    /* TOP BAR */
+    .topbar { background: var(--navy); color: #fff; text-align: center; font-size: 13px; padding: 9px 20px; letter-spacing: .04em; }
+    .topbar a { color: #F7A8A8; text-decoration: none; font-weight: 700; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(145deg, #2D0A0A 0%, #7B1D1D 50%, #5A1212 100%);
+      padding: 80px 24px 68px; text-align: center; position: relative; overflow: hidden;
+    }
+    .hero-pattern {
+      position: absolute; inset: 0; pointer-events: none; opacity: .06;
+      background-image: repeating-linear-gradient(45deg, rgba(255,255,255,1) 0px, rgba(255,255,255,1) 1px, transparent 1px, transparent 50%);
+      background-size: 24px 24px;
+    }
+    .hero::after {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% -5%, rgba(183,134,11,.25) 0%, transparent 65%);
+    }
+    .hero-inner { position: relative; z-index: 1; }
+    .hero h1 {
+      font-family: var(--serif); font-size: clamp(28px, 5.5vw, 52px); color: #fff;
+      line-height: 1.15; max-width: 880px; margin: 0 auto 18px; font-weight: 800;
+    }
+    .hero h1 em { color: #FBBF24; font-style: normal; }
+    .hero-sub { font-size: 17px; color: #D4A0A0; max-width: 580px; margin: 0 auto 36px; font-weight: 300; }
+    .hero-btns { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin-bottom: 36px; }
+    .btn-primary {
+      display: inline-block; background: var(--maroon-mid); color: #fff; font-weight: 700;
+      font-size: 15px; padding: 14px 32px; border-radius: 5px; text-decoration: none;
+      transition: background .2s, transform .15s; box-shadow: 0 4px 20px rgba(155,35,53,.5);
+    }
+    .btn-primary:hover { background: var(--maroon); transform: translateY(-2px); }
+    .btn-ghost {
+      display: inline-block; background: rgba(255,255,255,.1); color: #fff; font-weight: 600;
+      font-size: 15px; padding: 14px 28px; border-radius: 5px; text-decoration: none;
+      border: 1px solid rgba(255,255,255,.25); transition: background .2s;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.18); }
+    .hero-stats { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; }
+    .hstat { text-align: center; }
+    .hstat-num { font-family: var(--serif); font-size: 30px; font-weight: 800; color: #FBBF24; line-height: 1; }
+    .hstat-label { font-size: 12px; color: #D4A0A0; margin-top: 4px; letter-spacing: .06em; text-transform: uppercase; }
+
+    /* LAYOUT */
+    .container { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+
+    /* TOC */
+    .toc { background: var(--maroon-light); border-left: 4px solid var(--maroon-mid); border-radius: 0 8px 8px 0; padding: 24px 28px; margin: 52px 0 44px; }
+    .toc-title { font-family: var(--serif); font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--maroon-mid); margin-bottom: 14px; }
+    .toc ol { padding-left: 18px; }
+    .toc li { margin-bottom: 7px; font-size: 14px; }
+    .toc a { color: var(--maroon); text-decoration: none; font-weight: 600; }
+    .toc a:hover { color: var(--maroon-mid); text-decoration: underline; }
+
+    /* SECTIONS */
+    .section { padding: 48px 0 16px; }
+    .section + .section { border-top: 1px solid var(--border); }
+    h2 { font-family: var(--serif); font-size: 28px; color: var(--navy); margin-bottom: 20px; line-height: 1.25; font-weight: 700; }
+    h2 .num {
+      display: inline-flex; align-items: center; justify-content: center;
+      background: var(--maroon-mid); color: #fff; font-family: var(--sans);
+      font-size: 12px; font-weight: 700; width: 28px; height: 28px;
+      border-radius: 50%; margin-right: 12px; vertical-align: middle; position: relative; top: -3px;
+    }
+    h3 { font-family: var(--serif); font-size: 20px; color: var(--maroon); margin: 30px 0 12px; }
+    p { margin-bottom: 18px; font-size: 16px; }
+    ul, ol { padding-left: 22px; margin-bottom: 18px; }
+    li { margin-bottom: 9px; font-size: 16px; }
+    strong { color: var(--navy); }
+
+    /* TABLES */
+    .table-wrap { overflow-x: auto; margin: 24px 0; border-radius: 10px; box-shadow: 0 3px 14px rgba(0,0,0,.08); }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; background: var(--surface); }
+    thead tr { background: var(--maroon); }
+    thead th { color: #fff; font-weight: 700; padding: 14px 18px; text-align: left; font-size: 13px; letter-spacing: .04em; }
+    tbody tr:nth-child(even) { background: #FDF5F5; }
+    tbody tr:hover { background: #FAE8E8; transition: background .15s; }
+    tbody td { padding: 13px 18px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .table-note { font-size: 13px; color: var(--muted); margin-top: 10px; font-style: italic; }
+    .td-bold { font-weight: 700; color: var(--navy); }
+    .td-merit { font-weight: 800; color: var(--maroon-mid); font-size: 16px; }
+    .td-year { font-weight: 700; color: var(--gold); }
+
+    /* NOTE / WARN BOXES */
+    .note-box { background: var(--maroon-light); border-left: 4px solid var(--maroon-mid); border-radius: 0 8px 8px 0; padding: 16px 22px; margin: 22px 0; font-size: 15px; color: var(--maroon); font-style: italic; }
+    .warn-box { background: var(--gold-light); border-left: 4px solid var(--gold); border-radius: 0 8px 8px 0; padding: 16px 22px; margin: 22px 0; font-size: 15px; color: #7D6608; }
+    .green-box { background: var(--green-light); border-left: 4px solid var(--green); border-radius: 0 8px 8px 0; padding: 16px 22px; margin: 22px 0; font-size: 15px; color: var(--green); }
+
+    /* SEAT VISUAL CARDS */
+    .seat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin: 26px 0; }
+    .seat-card {
+      border-radius: 10px; padding: 20px 18px; text-align: center; border: 1px solid;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .seat-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,.1); }
+    .seat-num { font-family: var(--serif); font-size: 42px; font-weight: 800; line-height: 1; margin-bottom: 6px; }
+    .seat-name { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 4px; }
+    .seat-note { font-size: 12px; opacity: .7; }
+    .sc-open   { background: #FDF2F4; border-color: #F5C6CC; }
+    .sc-open   .seat-num  { color: var(--maroon-mid); }
+    .sc-open   .seat-name { color: var(--maroon); }
+    .sc-sf     { background: #FEF9E7; border-color: #FDE68A; }
+    .sc-sf     .seat-num  { color: var(--gold); }
+    .sc-sf     .seat-name { color: #92400E; }
+    .sc-quota  { background: #EFF6FF; border-color: #BFDBFE; }
+    .sc-quota  .seat-num  { color: var(--blue-mid); }
+    .sc-quota  .seat-name { color: var(--blue-mid); }
+    .sc-foreign{ background: #F0FDF4; border-color: #BBF7D0; }
+    .sc-foreign .seat-num  { color: var(--green); }
+    .sc-foreign .seat-name { color: var(--green); }
+
+    /* MERIT TREND BAR */
+    .merit-trend { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; margin: 24px 0; }
+    .merit-trend-title { font-family: var(--serif); font-size: 16px; font-weight: 700; color: var(--navy); margin-bottom: 20px; }
+    .trend-row { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+    .trend-year { font-size: 13px; font-weight: 700; color: var(--muted); width: 44px; flex-shrink: 0; }
+    .trend-bar-wrap { flex: 1; background: #F3E8E8; border-radius: 30px; height: 28px; overflow: hidden; }
+    .trend-bar { height: 100%; border-radius: 30px; display: flex; align-items: center; padding-left: 12px; font-size: 12px; font-weight: 700; color: #fff; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+    .trend-val { font-size: 13px; font-weight: 800; color: var(--maroon-mid); width: 56px; flex-shrink: 0; text-align: right; }
+
+    /* STEPS */
+    .steps { list-style: none; padding: 0; margin: 22px 0; counter-reset: step; }
+    .steps li { counter-increment: step; display: flex; align-items: flex-start; gap: 18px; margin-bottom: 18px; font-size: 16px; }
+    .steps li::before {
+      content: counter(step); flex-shrink: 0; width: 32px; height: 32px;
+      background: var(--maroon-mid); color: #fff; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; margin-top: 2px;
+    }
+
+    /* FEE TABLE HIGHLIGHT */
+    .fee-highlight { font-weight: 700; color: var(--green); }
+
+    /* TIPS GRID */
+    .tips-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 24px 0; }
+    .tip-card {
+      background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--maroon-mid);
+      border-radius: 8px; padding: 20px 18px; transition: box-shadow .2s, transform .2s;
+    }
+    .tip-card:hover { box-shadow: 0 6px 20px rgba(123,29,29,.08); transform: translateY(-2px); }
+    .tip-card h3 { margin: 0 0 10px; font-size: 16px; color: var(--maroon); }
+    .tip-card p  { margin: 0; font-size: 14px; color: #444; }
+
+    /* CTA BOX */
+    .cta-box {
+      background: linear-gradient(135deg, var(--navy) 0%, #3D0F0F 100%);
+      border-radius: 12px; padding: 38px 34px; text-align: center; margin: 48px 0;
+      position: relative; overflow: hidden;
+    }
+    .cta-box::before {
+      content: ''; position: absolute; top: -50px; right: -50px;
+      width: 180px; height: 180px; background: rgba(155,35,53,.2); border-radius: 50%;
+    }
+    .cta-box h3 { font-family: var(--serif); color: #fff; font-size: 24px; margin: 0 0 12px; position: relative; }
+    .cta-box p  { color: #D4A0A0; font-size: 15px; margin-bottom: 24px; position: relative; }
+    .cta-box a  {
+      display: inline-block; background: var(--maroon-mid); color: #fff; font-weight: 700;
+      font-size: 15px; padding: 14px 32px; border-radius: 5px; text-decoration: none;
+      transition: background .2s, transform .15s; position: relative;
+      box-shadow: 0 4px 20px rgba(155,35,53,.5);
+    }
+    .cta-box a:hover { background: var(--maroon); transform: translateY(-2px); }
+
+    /* FAQ */
+    .faq-list { margin: 22px 0; }
+    .faq-item { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 14px; overflow: hidden; }
+    .faq-q {
+      background: #FDF5F5; padding: 17px 22px; font-weight: 700; font-size: 15px;
+      color: var(--navy); cursor: pointer; display: flex; justify-content: space-between;
+      align-items: center; gap: 14px; user-select: none; transition: background .15s;
+    }
+    .faq-q:hover { background: #FAE8E8; }
+    .faq-q::after { content: '+'; font-size: 24px; color: var(--maroon-mid); font-weight: 300; flex-shrink: 0; transition: transform .25s; }
+    .faq-item.open .faq-q::after { transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height .35s ease, padding .3s; padding: 0 22px; font-size: 15px; color: #444; }
+    .faq-item.open .faq-a { max-height: 500px; padding: 18px 22px; }
+
+    /* INTERNAL LINKS */
+    .internal-links { background: var(--maroon-light); border-radius: 10px; padding: 22px 26px; margin: 36px 0; }
+    .internal-links-title { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+    .internal-links a { display: inline-block; color: var(--maroon-mid); font-size: 14px; font-weight: 600; text-decoration: none; margin-right: 20px; margin-bottom: 7px; }
+    .internal-links a::before { content: '→ '; color: var(--maroon-mid); }
+    .internal-links a:hover { color: var(--maroon); }
+
+    /* FOOTER META */
+    .blog-footer { background: var(--navy); color: #D4A0A0; padding: 48px 24px 38px; margin-top: 64px; }
+    .blog-footer .container { max-width: 820px; }
+    .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px; }
+    @media(max-width:540px){ .footer-grid{grid-template-columns:1fr;} }
+    .footer-label { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: #7A4A4A; margin-bottom: 8px; font-weight: 700; }
+    .footer-value { font-size: 15px; color: #fff; line-height: 1.65; }
+    .footer-value a { color: #F7A8A8; text-decoration: none; }
+    .footer-divider { border: none; border-top: 1px solid rgba(255,255,255,.1); margin: 26px 0; }
+    .footer-bottom { font-size: 12px; color: #7A4A4A; }
+    .alt-note { margin-top: 22px; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 16px 20px; font-size: 13px; color: #D4A0A0; }
+    .alt-note strong { color: #F0C0C0; display: block; margin-bottom: 6px; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+
+    /* RESPONSIVE */
+    @media(max-width:620px){
+      .hero{padding:54px 20px 48px;} h2{font-size:23px;} .cta-box{padding:30px 20px;}
+      .hero-stats{gap:18px;} .seat-grid{grid-template-columns:1fr 1fr;}
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+    .hero h1   { animation: fadeUp .65s ease both; }
+    .hero-sub  { animation: fadeUp .65s .13s ease both; }
+    .hero-btns { animation: fadeUp .65s .22s ease both; }
+    .hero-stats{ animation: fadeUp .65s .32s ease both; }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    Free Tools for Pakistani Medical Students &nbsp;|&nbsp;
+    <a href="https://www.tayarishayari.com/aggregate-calculator/mdcat-aggregate-calculator">Aggregate Calculator</a> &nbsp;|&nbsp;
+    <a href="https://www.tayarishayari.com/merit-lists/mdcat-pakistan-merit-list/punjab-uhs-campus-merit-list">Merit Lists 2025</a> &nbsp;|&nbsp;
+    <a href="https://www.tayarishayari.com/mock-tests/MDCAT">MDCAT Mock Tests</a>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-inner">
+      <h1>KEMU Admissions <em>2026</em> —<br>Merit, Seats, Fee &amp; Application Process</h1>
+      <p class="hero-sub">Everything you need to know about getting into King Edward Medical University Lahore — Pakistan's top medical institution since 1860.</p>
+      <div class="hero-btns">
+        <a class="btn-primary" href="#s5">Check Closing Merit →</a>
+        <a class="btn-ghost" href="#s6">Application Steps</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><div class="hstat-num">~370</div><div class="hstat-label">Total MBBS Seats</div></div>
+        <div class="hstat"><div class="hstat-num">93.7%</div><div class="hstat-label">2024 Closing Merit</div></div>
+        <div class="hstat"><div class="hstat-num">1860</div><div class="hstat-label">Established</div></div>
+        <div class="hstat"><div class="hstat-num">PKR 100K</div><div class="hstat-label">Approx. 1st Year Fee</div></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- TOC -->
+    <nav class="toc" aria-label="Table of Contents">
+      <div class="toc-title">In This Article</div>
+      <ol>
+        <li><a href="#s1">About King Edward Medical University (KEMU) Lahore</a></li>
+        <li><a href="#s2">KEMU MBBS Seats — Open Merit, Self-Finance &amp; Quota Breakdown</a></li>
+        <li><a href="#s3">KEMU Admission Eligibility Criteria</a></li>
+        <li><a href="#s4">How Merit is Calculated for KEMU</a></li>
+        <li><a href="#s5">KEMU Closing Merit — What You Need to Beat</a></li>
+        <li><a href="#s6">KEMU Application Process Step-by-Step</a></li>
+        <li><a href="#s7">KEMU Fee Structure 2026</a></li>
+        <li><a href="#s8">Tips to Secure a Seat at KEMU</a></li>
+        <li><a href="#faq">FAQs</a></li>
+      </ol>
+    </nav>
+
+    <!-- S1 -->
+    <section class="section" id="s1">
+      <h2><span class="num">1</span>About King Edward Medical University (KEMU) Lahore</h2>
+      <p>King Edward Medical University, located in the heart of Lahore, is Pakistan's oldest and most prestigious public medical institution. <strong>Founded in 1860</strong>, KEMU has been producing some of the country's finest doctors for over 160 years. It is affiliated with Mayo Hospital — one of Pakistan's largest public teaching hospitals — giving students unmatched clinical exposure from day one.</p>
+      <p>KEMU consistently ranks as the <strong>top medical university in Punjab</strong> and is recognised by PMDC, HEC, and WHO. Its MBBS program runs for 5 years, followed by a 1-year mandatory house job. The university is a dream destination for pre-medical students across Pakistan — which is exactly why its merit is the highest among all public sector medical colleges in Punjab.</p>
+      <p>Admissions to KEMU's MBBS and BDS programs are managed through the <strong>University of Health Sciences (UHS) Lahore</strong>, which is the admitting body for all public sector medical colleges in Punjab. All applications, merit lists, and seat allocations go through the UHS portal.</p>
+      <div class="note-box">
+        KEMU does not accept direct applications. All MBBS admissions are processed through UHS Lahore at <strong>uhs.edu.pk</strong>. Always follow UHS for official announcements, merit lists, and deadlines.
+      </div>
+    </section>
+
+    <!-- S2 -->
+    <section class="section" id="s2">
+      <h2><span class="num">2</span>KEMU MBBS Seats — Open Merit, Self-Finance &amp; Quota Breakdown</h2>
+      <p>KEMU offers approximately <strong>370 total MBBS seats</strong> annually. These are divided across several categories. Understanding which category applies to you is crucial before applying — each category has its own competition pool and closing merit.</p>
+
+      <div class="seat-grid">
+        <div class="seat-card sc-open">
+          <div class="seat-num">302</div>
+          <div class="seat-name">Open Merit</div>
+          <div class="seat-note">Punjab domicile · Highest competition</div>
+        </div>
+        <div class="seat-card sc-sf">
+          <div class="seat-num">~37</div>
+          <div class="seat-name">Self-Finance</div>
+          <div class="seat-note">Higher fee · Still merit-based</div>
+        </div>
+        <div class="seat-card sc-quota">
+          <div class="seat-num">3</div>
+          <div class="seat-name">AJK / Balochistan / GB</div>
+          <div class="seat-note">1 reserved seat each</div>
+        </div>
+        <div class="seat-card sc-foreign">
+          <div class="seat-num">10%</div>
+          <div class="seat-name">Foreign / Overseas</div>
+          <div class="seat-note">SAT-II required · EAD sponsored</div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Category</th><th>Approx. Seats</th><th>Eligibility</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="td-bold">Open Merit (Punjab)</td><td>302</td><td>Punjab domicile · 65% FSc · 60% MDCAT</td><td>Highest closing merit — ~93.7% in 2024</td></tr>
+            <tr><td class="td-bold">Self-Finance</td><td>~37</td><td>Punjab domicile · same academic criteria</td><td>Merit-based but higher annual fee</td></tr>
+            <tr><td class="td-bold">AJK Reserved</td><td>1</td><td>AJK domicile</td><td>Merit-based within AJK pool</td></tr>
+            <tr><td class="td-bold">Balochistan Reserved</td><td>1</td><td>Balochistan domicile</td><td>Merit-based within Balochistan pool</td></tr>
+            <tr><td class="td-bold">Gilgit-Baltistan Reserved</td><td>1</td><td>GB domicile</td><td>Merit-based within GB pool</td></tr>
+            <tr><td class="td-bold">Foreign / Overseas</td><td>10% of total</td><td>Foreign/Dual nationals · SAT-II + MDCAT</td><td>Through EAD / Economic Affairs Division</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="warn-box">
+        <strong>Important:</strong> Unfilled quota seats are transferred to the open merit pool. So if reserved seats go unclaimed, they increase the effective number of open merit seats. Always check the final UHS allocation on merit list day.
+      </div>
+    </section>
+
+    <!-- S3 -->
+    <section class="section" id="s3">
+      <h2><span class="num">3</span>KEMU Admission Eligibility Criteria</h2>
+      <p>Before you apply, make sure you meet all eligibility requirements. Missing even one disqualifies your application immediately.</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Requirement</th><th>Minimum Standard</th></tr></thead>
+          <tbody>
+            <tr><td class="td-bold">Matric / SSC</td><td>Minimum 60% marks in aggregate</td></tr>
+            <tr><td class="td-bold">FSc Pre-Medical / HSSC</td><td>Minimum 65% marks (Biology, Chemistry, Physics)</td></tr>
+            <tr><td class="td-bold">MDCAT Score</td><td>Minimum 60% in the latest NMDCAT exam</td></tr>
+            <tr><td class="td-bold">Domicile</td><td>Punjab domicile for open merit seats</td></tr>
+            <tr><td class="td-bold">Nationality</td><td>Pakistani national (or dual national with NICOP)</td></tr>
+            <tr><td class="td-bold">A-Level / Equivalent</td><td>IBCC equivalence certificate required</td></tr>
+            <tr><td class="td-bold">Age</td><td>No upper age limit specified for MBBS</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note-box">
+        Meeting the eligibility minimums does NOT guarantee a seat. With KEMU's closing merit at ~93.7%, meeting the minimums only makes you eligible to compete — your aggregate is what determines if you get in.
+      </div>
+    </section>
+
+    <!-- S4 -->
+    <section class="section" id="s4">
+      <h2><span class="num">4</span>How Merit is Calculated for KEMU</h2>
+      <p>KEMU uses the standard <strong>UHS merit formula</strong> applied to all Punjab public medical colleges. There is no separate KEMU test — your MDCAT score, FSc marks, and Matric marks are combined as follows:</p>
+
+      <div style="background:var(--maroon-light);border:2px solid var(--maroon-mid);border-radius:10px;padding:22px 28px;text-align:center;margin:22px 0;">
+        <div style="font-family:var(--serif);font-size:22px;font-weight:700;color:var(--maroon);line-height:1.6;">
+          Aggregate = (Matric % × 10%) + (FSc % × 40%) + (MDCAT % × 50%)
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Component</th><th>Weightage</th><th>Max Contribution</th><th>Key Note</th></tr></thead>
+          <tbody>
+            <tr><td class="td-bold">Matric / SSC</td><td>10%</td><td>10 marks</td><td>Percentage of total marks</td></tr>
+            <tr><td class="td-bold">FSc Pre-Medical</td><td>40%</td><td>40 marks</td><td>Percentage of total marks</td></tr>
+            <tr><td class="td-bold">MDCAT Score</td><td>50%</td><td>50 marks</td><td>Percentage out of 200</td></tr>
+            <tr><td class="td-bold">Total Aggregate</td><td><strong>100%</strong></td><td><strong>100 marks</strong></td><td>Rounded to 4 decimal places</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>With MDCAT carrying 50% weight, it is the single most powerful factor in your aggregate. A 5-mark improvement in your MDCAT score translates to a 2.5% improvement in your final aggregate — which at KEMU's competitive level can mean the difference between a seat and no seat.</p>
+      <p>Use the free <a href="https://www.tayarishayari.com/aggregate-calculator/mdcat-aggregate-calculator">Tayari Shayari Aggregate Calculator</a> to instantly compute your KEMU merit score.</p>
+    </section>
+
+    <!-- S5 -->
+    <section class="section" id="s5">
+      <h2><span class="num">5</span>KEMU Closing Merit — What You Need to Beat</h2>
+      <p>The closing merit is the aggregate of the <strong>last student admitted</strong> in each category. To secure a seat, your aggregate must be <em>at or above</em> the closing merit. KEMU consistently has the highest open merit closing aggregate among all Punjab public medical colleges.</p>
+
+      <div class="merit-trend">
+        <div class="merit-trend-title">KEMU Open Merit Closing Aggregate — Last 3 Years</div>
+        <div class="trend-row">
+          <div class="trend-year">2022</div>
+          <div class="trend-bar-wrap">
+            <div class="trend-bar" style="width:91.5%;background:linear-gradient(90deg,#7B1D1D,#C0392B);">91.67%</div>
+          </div>
+          <div class="trend-val">91.67%</div>
+        </div>
+        <div class="trend-row">
+          <div class="trend-year">2023</div>
+          <div class="trend-bar-wrap">
+            <div class="trend-bar" style="width:93%;background:linear-gradient(90deg,#7B1D1D,#C0392B);">93.70%</div>
+          </div>
+          <div class="trend-val">93.70%</div>
+        </div>
+        <div class="trend-row">
+          <div class="trend-year">2024</div>
+          <div class="trend-bar-wrap">
+            <div class="trend-bar" style="width:93.7%;background:linear-gradient(90deg,#7B1D1D,#C0392B);">~93.7%</div>
+          </div>
+          <div class="trend-val">~93.7%</div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Category</th><th>2024 Closing Merit (Est.)</th><th>Competition Level</th></tr></thead>
+          <tbody>
+            <tr><td class="td-bold">Open Merit (Punjab)</td><td class="td-merit">~93.7%</td><td>Extremely High</td></tr>
+            <tr><td class="td-bold">Self-Finance</td><td class="td-merit">~91–92%</td><td>Very High</td></tr>
+            <tr><td class="td-bold">AJK Reserved</td><td class="td-merit">Separate Pool</td><td>Competitive within AJK quota</td></tr>
+            <tr><td class="td-bold">Balochistan / GB</td><td class="td-merit">Separate Pool</td><td>Competitive within quota</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">* 2024 open merit closing aggregate of ~93.7% is sourced from UHS/community data. Official figures are published on uhs.edu.pk. Check the latest merit list at <a href="https://www.tayarishayari.com/merit-lists/mdcat-pakistan-merit-list/punjab-uhs-campus-merit-list">tayarishayari.com/merit-lists</a>.</p>
+
+      <div class="warn-box">
+        <strong>The trend is rising.</strong> KEMU's closing merit has gone from 91.67% in 2022 to 93.7% in 2024. Students targeting KEMU in 2026 should aim for <strong>94%+</strong> to be safe, especially if MDCAT difficulty decreases and more students score high.
+      </div>
+    </section>
+
+    <!-- S6 -->
+    <section class="section" id="s6">
+      <h2><span class="num">6</span>KEMU Application Process Step-by-Step</h2>
+      <p>KEMU MBBS admissions are fully online through the <strong>UHS Lahore portal</strong>. No hard copy applications are accepted. Here is the complete process:</p>
+
+      <ol class="steps">
+        <li><strong>Read the UHS Prospectus</strong> for the current session — download it from uhs.edu.pk. It contains the official merit formula, fee breakdown, and all seat categories.</li>
+        <li><strong>Register on the UHS Admission Portal</strong> at uhs.edu.pk — create an account with your name, guardian's name, email, and password.</li>
+        <li><strong>Choose your program</strong> — select MBBS, BDS, or both, and choose your seat categories (open merit, self-finance, quota).</li>
+        <li><strong>Fill your academic details</strong> — enter your Matric marks, FSc marks, and MDCAT score. Your aggregate is calculated automatically by the system.</li>
+        <li><strong>Upload required documents</strong> — Matric certificate, FSc certificate or result, MDCAT result card, domicile certificate, CNIC/B-Form, passport-size photo.</li>
+        <li><strong>Pay the application processing fee</strong> — PKR 2,000 per program, payable at any Bank of Punjab branch or via online banking.</li>
+        <li><strong>Submit your college preference list</strong> — rank KEMU and other colleges in your preferred order. Higher aggregate students get first choice.</li>
+        <li><strong>Check UHS merit lists</strong> — UHS releases multiple provisional and final merit lists from October/November onward. Check your status on the portal regularly.</li>
+        <li><strong>Deposit fees before the deadline</strong> — if selected, you must pay your fee by the UHS deadline or lose your seat. Your seat goes to the next student on the merit list.</li>
+      </ol>
+
+      <div class="note-box">
+        Admissions typically open in <strong>October/November</strong> following MDCAT results. UHS releases multiple merit lists (often 5–7) — if you are not selected in the first list, do not lose hope. Keep checking until the final list.
+      </div>
+    </section>
+
+    <!-- S7 -->
+    <section class="section" id="s7">
+      <h2><span class="num">7</span>KEMU Fee Structure 2026</h2>
+      <p>One of KEMU's biggest advantages over private medical colleges is its <strong>extremely affordable fee structure</strong>. As a Punjab government institution, fees are subsidised for Pakistani domicile students. The complete 5-year MBBS program at KEMU costs a fraction of what private colleges charge.</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Fee Component</th><th>Amount (Approx.)</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td class="td-bold">1st Year Tuition Fee</td><td class="fee-highlight">PKR ~100,000</td><td>Punjab domicile open merit students</td></tr>
+            <tr><td class="td-bold">2nd–5th Year Tuition Fee</td><td class="fee-highlight">PKR ~70,000–80,000/yr</td><td>Per academic year</td></tr>
+            <tr><td class="td-bold">Total 5-Year MBBS Fee</td><td class="fee-highlight">PKR ~380,000–400,000</td><td>Approximate, subject to annual revision</td></tr>
+            <tr><td class="td-bold">Self-Finance Seats</td><td>Higher than open merit</td><td>Exact amount set by Health Dept. annually</td></tr>
+            <tr><td class="td-bold">Application Processing Fee</td><td>PKR 2,000</td><td>Paid via Bank of Punjab or online</td></tr>
+            <tr><td class="td-bold">Hostel Fee</td><td>Separate — varies</td><td>No hostel accommodation guaranteed</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="green-box">
+        <strong>Comparison:</strong> A 5-year MBBS at KEMU costs approximately PKR 400,000 in total. The same degree at a top private medical college in Punjab typically costs PKR 8–12 million. This makes KEMU an extraordinary value — but the competition reflects this.
+      </div>
+
+      <div class="note-box">
+        KEMU's fee structure is set by the Government of Punjab Health Department and is subject to change each session. Always verify the current figures from the official UHS Prospectus before applying.
+      </div>
+    </section>
+
+    <!-- S8 -->
+    <section class="section" id="s8">
+      <h2><span class="num">8</span>Tips to Secure a Seat at KEMU</h2>
+      <p>Getting into KEMU requires a near-perfect aggregate. Here is what actually moves the needle:</p>
+
+      <div class="tips-grid">
+        <div class="tip-card">
+          <h3>Target 165+ in MDCAT</h3>
+          <p>With MDCAT carrying 50% weight, scoring 165 out of 200 (82.5%) gives you a huge advantage. Combined with strong FSc marks, this puts you comfortably above KEMU's 93.7% closing merit.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Don't Neglect FSc Marks</h3>
+          <p>FSc carries 40% weight — the second largest component. Students with 90%+ FSc marks have a built-in 4% advantage over those with 80% FSc marks, even with the same MDCAT score.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Calculate Your Target Score First</h3>
+          <p>Use the <a href="https://www.tayarishayari.com/aggregate-calculator/mdcat-aggregate-calculator">Tayari Shayari Aggregate Calculator</a> to see exactly what MDCAT score you need, given your Matric and FSc marks, to reach KEMU's closing merit.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Apply to Multiple Seat Categories</h3>
+          <p>If you are eligible for a quota seat (AJK, Balochistan, GB), apply for both open merit and the quota. Quota competition pools are smaller, improving your chances significantly.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Rank KEMU First in Your Preference List</h3>
+          <p>UHS assigns seats based on merit and preference order. If KEMU is not ranked first in your list, you may miss a seat even if your aggregate is high enough — always put your top-choice college first.</p>
+        </div>
+        <div class="tip-card">
+          <h3>Monitor All Merit Lists</h3>
+          <p>UHS releases multiple merit lists. Many students get selected in the 3rd, 4th or 5th list after higher-ranked students miss their fee deadlines. Check the <a href="https://www.tayarishayari.com/merit-lists/mdcat-pakistan-merit-list/punjab-uhs-campus-merit-list">Tayari Shayari merit lists page</a> regularly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-box">
+      <h3>Know Your KEMU Merit Score Right Now</h3>
+      <p>Enter your Matric, FSc and MDCAT scores — see your exact aggregate and whether you are above KEMU's closing merit.</p>
+      <a href="https://www.tayarishayari.com/aggregate-calculator/mdcat-aggregate-calculator">Calculate Your Merit Score →</a>
+    </div>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <h2><span class="num">9</span>FAQs — KEMU Admissions 2026</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <div class="faq-q">What aggregate do I need to get into KEMU in 2026?</div>
+          <div class="faq-a">
+            Based on 2024 data, KEMU's open merit closing aggregate was approximately <strong>93.7%</strong>. Given the rising trend (91.67% in 2022 → 93.7% in 2024), students aiming for KEMU in 2026 should target <strong>94% or above</strong> to be safe. This requires very strong MDCAT and FSc scores. Use the <a href="https://www.tayarishayari.com/aggregate-calculator/mdcat-aggregate-calculator">aggregate calculator</a> to see where you stand.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">How do I apply for KEMU MBBS admission?</div>
+          <div class="faq-a">
+            KEMU does not accept direct applications. All MBBS admissions are handled by <strong>UHS (University of Health Sciences) Lahore</strong> at uhs.edu.pk. You must register on the UHS online portal, fill your academic details, upload documents, pay the PKR 2,000 processing fee, and submit your college preference list. Admissions typically open in October/November each year after MDCAT results.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">How many MBBS seats does KEMU have?</div>
+          <div class="faq-a">
+            KEMU has approximately <strong>370 total MBBS seats</strong> per session. This includes roughly 300 open merit seats for Punjab domicile students, about 37 self-finance seats, 1 reserved seat each for AJK, Balochistan, and Gilgit-Baltistan, and 10% of total seats for foreign/overseas candidates. Unfilled quota seats are transferred to open merit.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q">What is the annual MBBS fee at KEMU?</div>
+          <div class="faq-a">
+            For Punjab domicile students on open merit seats, the 1st year tuition fee is approximately <strong>PKR 100,000</strong>, with subsequent years at around PKR 70,000–80,000 per year. The full 5-year program costs approximately PKR 380,000–400,000 in total — far less than private medical colleges. Fees are set by the Government of Punjab and may change each session.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERNAL LINKS -->
+    <div class="internal-links">
+      <div class="internal-links-title">Related Pages on Tayari Shayari</div>
+      <a href="https://www.tayarishayari.com/aggregate-calculator/mdcat-aggregate-calculator">MDCAT Aggregate Calculator</a>
+      <a href="https://www.tayarishayari.com/merit-lists/mdcat-pakistan-merit-list/punjab-uhs-campus-merit-list">Punjab UHS Merit Lists</a>
+      <a href="https://www.tayarishayari.com/syllabus/mdcat-entry-test-syllabus">MDCAT Syllabus 2026</a>
+      <a href="https://www.tayarishayari.com/universities/MDCAT/subjects">MDCAT Subject Practice</a>
+      <a href="https://www.tayarishayari.com/mock-tests/MDCAT">MDCAT Mock Tests</a>
+    </div>
+
+  </div><!-- /container -->
+
+  <!-- FOOTER -->
+  <footer class="blog-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-label">Meta Title</div>
+          <div class="footer-value">KEMU Admissions 2026 — Merit, Seats &amp; Application Process | Tayari Shayari</div>
+        </div>
+        <div>
+          <div class="footer-label">URL Slug</div>
+          <div class="footer-value"><a href="https://www.tayarishayari.com/kemu-admission-2026">tayarishayari.com/kemu-admission-2026</a></div>
+        </div>
+      </div>
+      <div>
+        <div class="footer-label">Meta Description</div>
+        <div class="footer-value">Complete guide to KEMU MBBS admissions 2026. Check merit requirements, seat breakdown, closing merits, fee structure and step-by-step application process.</div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="alt-note">
+        <strong>Blog Title Image — ALT Text</strong>
+        KEMU Admissions 2026 — King Edward Medical University Lahore main entrance, Pakistan's oldest medical institution established in 1860, showing the historic red brick campus building
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">© 2026 Tayari Shayari · For Pakistani FSc / Intermediate students aged 16–21 · Blog #6 · Priority: HIGH · Keyword: kemu admission 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.faq-q').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.parentElement;
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>
